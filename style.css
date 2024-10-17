@@ -1,0 +1,74 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(235, 235, 224);
+    margin: auto;
+    padding: 10px;
+    
+}
+
+
+#choice {
+    background-color: rgba(255, 255, 255, 0.589);
+    color: rgb(0, 0, 0);
+    padding: 13px;
+}
+
+option {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+input{
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+}
+h1 {
+    background-color: rgb(62, 95, 83);
+   color: rgb(255, 255, 255);
+}
+h2 {
+ color: black;
+ text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.397);
+ font-size: 30px;
+}
+h3{
+    color: black;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.397);
+    font-size: 30px;
+}
+button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    box-shadow: rgb(62, 95, 83) 0px 4px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: rgb(0, 255, 98) 0px 0px 2px 0px;
+  }
+  
+  button:active {
+    background-color: rgb(63, 95, 62);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 50ms;
+  }
+  
+p{
+    color: rgb(0, 0, 0);
+}
+
+#digite{
+    font-size: 30px;
+    color: black;
+}
+#opcao{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
